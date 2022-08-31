@@ -1,0 +1,21 @@
+Step 1 Jika n = 0, return nilai m sebagai hasil dan stop. Jika tidak, kembali ke Step 2.
+Step 2 Bagi nilai m dengan n, masukan nilai sisanya ke r.
+Step 3 Masukan nilai n ke m dan nilai r ke n. Kembali ke Step 1.
+
+Pseudocode:
+
+While n ≠ 0 do
+  r ← m mod n
+  m ← n
+  n ← r
+
+return m
+
+Nilai KPK dari 3 dan 4 
+
+Step 1 Menentukan FPB dari data a dan b. 
+Step 2 bagi nilai a kali b dengan FPB a dan b.
+
+Pseudocode 
+
+KPK <- a*b / gcd(a,b)
